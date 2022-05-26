@@ -27,7 +27,7 @@ function Register() {
     const onSubmit = (values) => {
     };
 
-    //validation for user input and error for invalid input.
+    //validation for user input and error for invalid input using yup.
 
     const validationSchema = yup.object({
         name: yup.string().required("Required!"),
